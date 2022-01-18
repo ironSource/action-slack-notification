@@ -14,7 +14,7 @@ validate_args() {
     exit 1
   fi
 
-  icon_url="https://avatars.githubusercontent.com/t/5433436?s=32&v=4"
+  icon_url=""
   if [ -n "${INPUT_ICON}" ]
   then
     icon_url=${INPUT_ICON}
