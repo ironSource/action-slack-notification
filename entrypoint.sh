@@ -15,9 +15,9 @@ validate_args() {
   fi
 
   icon_url=""
-  if [ -n "${INPUT_ICON}" ]
+  if [ -n "${INPUT_ICON_URL}" ]
   then
-    icon_url=${INPUT_ICON}
+    icon_url=${INPUT_ICON_URL}
   fi
 
   icon_emoji=""
